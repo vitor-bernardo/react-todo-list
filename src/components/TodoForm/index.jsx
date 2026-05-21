@@ -8,6 +8,7 @@ export function TodoForm(props) {
             <TextInput
                 placeholder="Digite o item que voce deseja adicionar"
                 required
+                name="description"
             />
             <SendButton>Salvar item</SendButton>
         </form>
